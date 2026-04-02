@@ -1,37 +1,37 @@
-# Assistant LLM
+# Simple Interest Calculator
 
-**A powerful, intelligent AI assistant powered by Large Language Models.**
+A clean and easy-to-use Simple Interest Calculator built with [mention your tech stack, e.g., Python / HTML + CSS + JavaScript / Java / etc.].
 
----
+## Features
 
-## 📝 Description
+- Calculate **Simple Interest** instantly
+- Input fields for:
+  - Principal Amount (₹ / $ / any currency)
+  - Annual Interest Rate (%)
+  - Time Period (in years)
+- Clean and responsive user interface
+- Shows total amount (Principal + Interest)
+- Easy to understand output
 
-**Assistant LLM** is a modern, customizable AI assistant built using state-of-the-art Large Language Models (LLMs). It is designed to help users with a wide range of tasks including conversation, reasoning, coding assistance, research, content generation, and more.
+## Formula Used
 
-Whether you're a developer, student, researcher, or productivity enthusiast, Assistant LLM aims to be your intelligent companion that understands context, follows instructions, and delivers helpful, accurate, and natural responses.
+The calculator uses the standard **Simple Interest** formula:
 
-### ✨ Key Features
+**Simple Interest (SI)** = (P × R × T) / 100
 
-- **Conversational Intelligence** – Natural and context-aware dialogue
-- **Task Automation** – Helps with writing, coding, analysis, and planning
-- **Customizable Behavior** – Easy to configure personality, knowledge cutoff, and response style
-- **Multi-turn Memory** – Maintains conversation history for better context
-- **Tool Integration Ready** – Designed for future extensions with tools and APIs
-- **Open & Extensible** – Built with flexibility in mind for developers
+**Total Amount** = P + SI
 
----
+Where:
+- **P** = Principal Amount
+- **R** = Annual Interest Rate (in percentage)
+- **T** = Time Period (in years)
 
-## 🚀 Quick Start
+## How to Use
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/assistant-llm.git
+1. Enter the **Principal Amount**
+2. Enter the **Rate of Interest** (per annum)
+3. Enter the **Time** in years
+4. Click on **Calculate**
+5. View the **Simple Interest** and **Total Amount**
 
-# Navigate to the project
-cd assistant-llm
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the assistant
-python main.py
+## Project Structure
